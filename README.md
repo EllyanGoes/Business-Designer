@@ -26,6 +26,7 @@ Na prática: o aluno conhece as datas desde a matrícula, mas compra com menos d
 | Banca de Modelagem — pitch de 10 minutos | ✅ Apresentada | [`sprints/sprint-03/banca-de-modelagem/`](sprints/sprint-03/banca-de-modelagem/) |
 | Sprint 4 — Viabilidade: projeção de receitas | ✅ Concluída | [`sprints/sprint-04/`](sprints/sprint-04/) |
 | Sprint 5 — Viabilidade: custos, despesas e investimentos | ✅ Concluída | [`sprints/sprint-05/`](sprints/sprint-05/) |
+| E6 — Versão alternativa: founder-led × professional-led, DFC de 3 anos | ✅ Entregue (modelo a reconciliar com a Sprint 5) | [`sprints/e6/`](sprints/e6/) |
 | Sprint 6 — Plano de implementação | ⬜ A fazer | — |
 | Demo Day — pitch final de 10 minutos | ⬜ A fazer | — |
 
@@ -43,8 +44,10 @@ sprints/
 │       └── entregaveis/      Banca_Modelagem_Kairos_Antevia.pptx ✓
 ├── sprint-04/                Viabilidade: mercado, preço, cenários e o desafio do primeiro ano
 │   └── entregaveis/          Sprint_04_Kairos_Antevia.pptx + modelo de receitas (XLSX) ✓
-└── sprint-05/                Custos, MVP, macroprocesso, pessoal e necessidade de capital
-    └── entregaveis/          Sprint_05_Kairos_Antevia.pptx + modelo eco-fin (XLSX) ✓
+├── sprint-05/                Custos, MVP, macroprocesso, pessoal e necessidade de capital
+│   └── entregaveis/          Sprint_05_Kairos_Antevia.pptx + modelo eco-fin (XLSX) ✓
+└── e6/                       Encontro 6, versão alternativa: A (founder-led) × B (professional-led)
+    └── entregaveis/          Sprint_E6_Kairos_Antevia.pptx + PDF + modelo eco-fin E6 (XLSX) ✓
 marca/                        Identidade visual "Minimal Future" e diretrizes de escrita
 └── assets/                   antevia_logo.png, antevia_appicon.png ✓
 apresentacoes/                Cópias dos decks de Sprint 3 e da banca, reunidas para uso em sala
@@ -76,6 +79,11 @@ Cada pasta tem um `README.md` com o resumo da etapa. Comece por [`sprints/sprint
 | Como o mercado vai nos descobrir | [`sprints/sprint-05/estrategia-comercial.md`](sprints/sprint-05/estrategia-comercial.md) |
 | Quanto capital pedimos e por quê | [`sprints/sprint-05/dfc-e-necessidade-de-capital.md`](sprints/sprint-05/dfc-e-necessidade-de-capital.md) |
 | Cartão, financiamento e milhas — o que ficou fora | [`sprints/sprint-05/alavancas-nao-modeladas.md`](sprints/sprint-05/alavancas-nao-modeladas.md) |
+| Founder-led ou equipe contratada: qual estrutura e quanto capital | [`sprints/e6/README.md`](sprints/e6/README.md) |
+| Preço por viagem, margem de contribuição e ponto de equilíbrio (E6) | [`sprints/e6/unit-economics-e-ponto-de-equilibrio.md`](sprints/e6/unit-economics-e-ponto-de-equilibrio.md) |
+| As DFCs trimestrais A e B e a curva de caixa (E6) | [`sprints/e6/dfc-a-vs-b.md`](sprints/e6/dfc-a-vs-b.md) |
+| VPL, TIR, payback e por que a dívida foi descartada (E6) | [`sprints/e6/estrutura-de-capital-e-viabilidade.md`](sprints/e6/estrutura-de-capital-e-viabilidade.md) |
+| O que a banca vai cobrar do E6 | [`sprints/e6/avaliacao-critica.md`](sprints/e6/avaliacao-critica.md) |
 | A identidade visual | [`marca/identidade-visual.md`](marca/identidade-visual.md) |
 
 ## Decisões-chave (resumo)
@@ -110,6 +118,7 @@ Cada pasta tem um `README.md` com o resumo da etapa. Comece por [`sprints/sprint
 - Validar a meta de captação de 100 alunos no ano 1 com coordenação de campus com fluxo de fora — é a variável dominante do modelo (±30%)
 - Conferir, no calendário acadêmico dos campi, se dá para concentrar 50 a 60 alunos numa mesma data — é o que liga a tarifa de grupo
 - Validar H2 (tempo por encontro) e H6 (disposição a pagar R$ 50–150) com alunos-executivos
+- Reconciliar o modelo do E6 (3 anos, A × B, aporte de R$ 47,4 mil) com o da Sprint 5 (5 anos, Moderado, R$ 559 mil) num único cenário oficial — hoje são duas respostas para a mesma pergunta ([avaliação](sprints/e6/avaliacao-critica.md))
 - Iniciar a Sprint 6: VPL, TIR e payback; EAP e cronograma; matriz de responsabilidades; BSC com marcos e metas; matriz de riscos confrontada com as hipóteses de fracasso
 - Adicionar os PDFs complementares da Sprint 1 (resumos, mapa de contexto, hipóteses), se localizados
 - Acompanhar o registro formal da marca no INPI
